@@ -34,67 +34,67 @@ new Song[] {
 ```
 
 A first execution of the algorithm (20 passes) returns this:
-* Generated: White Stripes - Seven Nation Army
-* Generated: Bad Religion - 21st Century Boy
-* Generated: NOFX - Dinosaurs Will Die
-* Generated: System of a Down - BYOB
-* Generated: Blink 182 - All the Small Things
-* Generated: Black Flag - Wasted
-* Generated: Britney Spears - Toxic
-* Generated: The Bouncing Souls - Rebels Song
-* Generated: Circle Jerks - Live Fast Die Young
-* Generated: Against Me! - Transgender Dysphoria Blues
-* Generated: Johnny Cash - Hurt
-* Generated: White Stripes - Seven Nation Army
-* Generated: Bad Religion - 21st Century Boy
-* Generated: NOFX - Franco Un-american
-* Generated: System of a Down - BYOB
-* Generated: Sum 41 - A Murder Of Crows
-* Generated: Black Flag - Wasted
-* Generated: Britney Spears - Toxic
-* Generated: The Bouncing Souls - Rebels Song
-* Generated: Circle Jerks - Wild in the Streets
+* Selected White Stripes - Seven Nation Army
+* Selected Bad Religion - 21st Century Boy
+* Selected NOFX - Dinosaurs Will Die
+* Selected System of a Down - BYOB
+* Selected Blink 182 - All the Small Things
+* Selected Black Flag - Wasted
+* Selected Britney Spears - Toxic
+* Selected The Bouncing Souls - Rebels Song
+* Selected Circle Jerks - Live Fast Die Young
+* Selected Against Me! - Transgender Dysphoria Blues
+* Selected Johnny Cash - Hurt
+* Selected White Stripes - Seven Nation Army
+* Selected Bad Religion - 21st Century Boy
+* Selected NOFX - Franco Un-american
+* Selected System of a Down - BYOB
+* Selected Sum 41 - A Murder Of Crows
+* Selected Black Flag - Wasted
+* Selected Britney Spears - Toxic
+* Selected The Bouncing Souls - Rebels Song
+* Selected Circle Jerks - Wild in the Streets
 
 And a second one, returns this:
-* Generated: White Stripes - Seven Nation Army
-* Generated: Black Flag - Wasted
-* Generated: Against Me! - Transgender Dysphoria Blues
-* Generated: Circle Jerks - Wild in the Streets
-* Generated: Sum 41 - A Murder Of Crows
-* Generated: NOFX - Franco Un-american
-* Generated: Johnny Cash - Hurt
-* Generated: Britney Spears - Toxic
-* Generated: Bad Religion - Suffer
-* Generated: The Bouncing Souls - Rebels Song
-* Generated: Blink 182 - Adam's Song
-* Generated: White Stripes - Seven Nation Army
-* Generated: Black Flag - Six Pack
-* Generated: Against Me! - Transgender Dysphoria Blues
-* Generated: Circle Jerks - Live Fast Die Young
-* Generated: System of a Down - BYOB
-* Generated: Sum 41 - A Murder Of Crows
-* Generated: Johnny Cash - Hurt
-* Generated: NOFX - Franco Un-american
-* Generated: Bad Religion - Suffer
+* Selected White Stripes - Seven Nation Army
+* Selected Black Flag - Wasted
+* Selected Against Me! - Transgender Dysphoria Blues
+* Selected Circle Jerks - Wild in the Streets
+* Selected Sum 41 - A Murder Of Crows
+* Selected NOFX - Franco Un-american
+* Selected Johnny Cash - Hurt
+* Selected Britney Spears - Toxic
+* Selected Bad Religion - Suffer
+* Selected The Bouncing Souls - Rebels Song
+* Selected Blink 182 - Adam's Song
+* Selected White Stripes - Seven Nation Army
+* Selected Black Flag - Six Pack
+* Selected Against Me! - Transgender Dysphoria Blues
+* Selected Circle Jerks - Live Fast Die Young
+* Selected System of a Down - BYOB
+* Selected Sum 41 - A Murder Of Crows
+* Selected Johnny Cash - Hurt
+* Selected NOFX - Franco Un-american
+* Selected Bad Religion - Suffer
 
 And finally, a third one returns this:
-* Generated: Black Flag - Rise Above
-* Generated: Sum 41 - A Murder Of Crows
-* Generated: The Bouncing Souls - Rebels Song
-* Generated: Blink 182 - Adam's Song
-* Generated: Britney Spears - Toxic
-* Generated: Johnny Cash - Hurt
-* Generated: Against Me! - Transgender Dysphoria Blues
-* Generated: System of a Down - BYOB
-* Generated: Circle Jerks - Live Fast Die Young
-* Generated: NOFX - Franco Un-american
-* Generated: Bad Religion - 21st Century Boy
-* Generated: Black Flag - Wasted
-* Generated: Sum 41 - A Murder Of Crows
-* Generated: White Stripes - Seven Nation Army
-* Generated: Blink 182 - All the Small Things
-* Generated: The Bouncing Souls - Rebels Song
-* Generated: Johnny Cash - Hurt
-* Generated: Against Me! - Transgender Dysphoria Blues
-* Generated: System of a Down - BYOB
-* Generated: Circle Jerks - Wild in the Streets
+* Selected Black Flag - Rise Above
+* Selected Sum 41 - A Murder Of Crows
+* Selected The Bouncing Souls - Rebels Song
+* Selected Blink 182 - Adam's Song
+* Selected Britney Spears - Toxic
+* Selected Johnny Cash - Hurt
+* Selected Against Me! - Transgender Dysphoria Blues
+* Selected System of a Down - BYOB
+* Selected Circle Jerks - Live Fast Die Young
+* Selected NOFX - Franco Un-american
+* Selected Bad Religion - 21st Century Boy
+* Selected Black Flag - Wasted
+* Selected Sum 41 - A Murder Of Crows
+* Selected White Stripes - Seven Nation Army
+* Selected Blink 182 - All the Small Things
+* Selected The Bouncing Souls - Rebels Song
+* Selected Johnny Cash - Hurt
+* Selected Against Me! - Transgender Dysphoria Blues
+* Selected System of a Down - BYOB
+* Selected Circle Jerks - Wild in the Streets

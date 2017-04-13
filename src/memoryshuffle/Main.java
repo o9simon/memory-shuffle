@@ -16,7 +16,7 @@ public class Main {
 	private Random rand = new Random();
 	private History history = new History(10); // History with a depth of 10
 	
-	public void generate() {
+	public void selectSong() {
 		Song randSong = getRandomSong();
 		
 		// Each time a song is generated, the shuffler will try a certain number of times
@@ -29,7 +29,7 @@ public class Main {
 		
 		history.push(randSong);
 		
-		System.out.println("Generated: " + randSong.toString());
+		System.out.println("Selected: " + randSong.toString());
 	}
 	
 	public void print() {
@@ -44,7 +44,7 @@ public class Main {
 		Main main = new Main();
 		
 		for (int i = 0; i < 20; i++) {
-			main.generate();
+			main.selectSong();
 		}
 		
 		main.print();
