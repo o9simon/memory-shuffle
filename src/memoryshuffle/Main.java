@@ -14,7 +14,7 @@ import java.util.Random;
 public class Main {
 	private Song[] library = Library.getLibrary();
 	private Random rand = new Random();
-	private History history = new History(10); // History with a depth of 10
+	private History history = new History();
 	
 	public void selectSong() {
 		Song randSong = getRandomSong();

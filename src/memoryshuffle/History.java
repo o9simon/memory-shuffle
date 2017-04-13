@@ -2,12 +2,13 @@ package memoryshuffle;
 
 public class History {
 
+	private static final int HISTORY_DEPTH = 10;
+	
 	private Song[] history;
 	
-	public History(int depth) {
-		history = new Song[depth];
+	public History() {
+		history = new Song[HISTORY_DEPTH];
 	}
-	
 	
 	public void push(Song song) {
 		Song temp;
