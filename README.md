@@ -7,7 +7,7 @@ This is an algorithm to shuffle music.
 * If the artist of the randomly selected song is the artist of one of the last 10 songs. A new song is randomly selected.
 * If after 4 tries, a song from an artist not in the history couldn't be selected, stop trying to select a new song and select the current one.
 
-## Output
+## Example
 Starting from this library :
 ```java
 new Song[] {
@@ -98,3 +98,6 @@ And finally, a third one returns this:
 * Selected: Against Me! - Transgender Dysphoria Blues
 * Selected: System of a Down - BYOB
 * Selected: Circle Jerks - Wild in the Streets
+
+## Improvments
+The history doesn't have to be a history of songs, it could be a history of artists or artist identifiers.
