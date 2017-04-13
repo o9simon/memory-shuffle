@@ -2,6 +2,9 @@ package memoryshuffle;
 
 import java.util.Random;
 
+/**
+ * Heart of the algorithm.
+ */
 public class MemoryShuffle {
 
 private static final int MAX_TRIES = 4;

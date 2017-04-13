@@ -1,6 +1,12 @@
 package memoryshuffle;
 
-
+/**
+ * This is a song library to use the algorithm against.
+ * Usually, the library would be in a database.
+ * 
+ * To properly test this algorithm, many of the songs are
+ * by the same artist.
+ */
 public class Library {
 
 	public static Song[] getLibrary() {

@@ -2,6 +2,9 @@ package memoryshuffle;
 
 public class Example {
 
+	/**
+	 * Run the algorithm n times.
+	 */
 	public static void run(int passes) {
 		MemoryShuffle ms = new MemoryShuffle();
 		
@@ -12,9 +15,11 @@ public class Example {
 		ms.printHistory();
 	}
 	
-	// Run the algorithm n times and
-	// display how many times the same artist
-	// played twice in a row.
+	/**
+	 *  Run the algorithm n times and
+	 *  display how many times the same
+	 *  artist plays twice in a row.
+	 */
 	public static void displaySameArtistTwiceInARowCount(int passes) {
 		MemoryShuffle ms = new MemoryShuffle();
 		Song last = null;
