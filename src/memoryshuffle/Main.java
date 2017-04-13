@@ -12,6 +12,9 @@ import java.util.Random;
  * http://tetris.wikia.com/wiki/TGM_randomizer
  */
 public class Main {
+	
+	private static final int MAX_TRIES = 4;
+	
 	private Song[] library = Library.getLibrary();
 	private Random rand = new Random();
 	private History history = new History();
@@ -22,7 +25,7 @@ public class Main {
 		// Each time a song is generated, the shuffler will try a certain number of times
 		// to generate a song that doesn't match any in the history.
 		int tries = 1;
-		while (history.containsArtist(randSong.getArtist()) || tries <= 4) {
+		while (history.containsArtist(randSong.getArtist()) || tries <= MAX_TRIES) {
 			randSong = getRandomSong();
 			tries++;
 		}
