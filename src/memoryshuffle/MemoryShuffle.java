@@ -11,7 +11,7 @@ private static final int MAX_TRIES = 4;
 	
 	private Song[] library = Library.getLibrary();
 	private Random rand = new Random();
-	private History history = new History();
+	private History history = new History(library.length);
 	
 	public Song selectSong() {
 		Song randSong = getRandomSong();
@@ -27,7 +27,6 @@ private static final int MAX_TRIES = 4;
 		history.push(randSong);
 		
 		System.out.println("Selected: " + randSong.toString());
-		
 		return randSong;
 	}
 	

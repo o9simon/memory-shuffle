@@ -2,15 +2,27 @@ package memoryshuffle;
 
 public class History {
 
-	private static final int HISTORY_DEPTH = 10;
-	
 	private Song[] history;
 	
-	public History() {
-		history = new Song[HISTORY_DEPTH];
+	/**
+	 * The depth of the history depends on the size of the library.
+	 * The library must be twice as big as the history depth.
+	 * The maximum depth of the history is 10.
+	 * 
+	 * @param librarySize
+	 */
+	public History(int librarySize) {
+		if (librarySize >= 20) {
+			history = new Song[10];
+		} else {
+			history = new Song[librarySize / 2];
+		}
 	}
 	
 	public void push(Song song) {
+		if (history.length <= 0)
+			return;
+		
 		Song temp;
 		
 		// Index 0 becomes the new song
