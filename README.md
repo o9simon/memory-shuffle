@@ -99,5 +99,5 @@ And finally, a third one returns this:
 * Selected: System of a Down - BYOB
 * Selected: Circle Jerks - Wild in the Streets
 
-## Improvments
+## Improvements
 The history doesn't have to be a history of songs, it could be a history of artists or artist identifiers.
