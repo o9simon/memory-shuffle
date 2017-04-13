@@ -32,7 +32,7 @@ public class Main {
 		System.out.println("Selected: " + randSong.toString());
 	}
 	
-	public void print() {
+	public void printHistory() {
 		history.print();
 	}
 	
@@ -43,11 +43,12 @@ public class Main {
 	public static void main(String[] args) {
 		Main main = new Main();
 		
+		// Run the algorithm 20 times
 		for (int i = 0; i < 20; i++) {
 			main.selectSong();
 		}
 		
-		main.print();
+		main.printHistory();
 	}
 	
 }
