@@ -3,7 +3,7 @@ This is an algorithm to shuffle music.
 
 ## How it works
 * The last n songs are kept in memory.
-* The history depth (n) depends on the size of song library.
+* The history depth (n) depends on the size of the song library.
 * A random song is selected using java.util.Random (or any other library to generate a random number)
 * If the artist of the randomly selected song is the artist of one of the last n songs. A new song is randomly selected.
 * If after 4 tries, a song from an artist not in the history couldn't be selected, stop trying to select a new song and select the current one.
